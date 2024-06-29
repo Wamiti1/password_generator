@@ -128,9 +128,8 @@ class _InputState extends State<Input> {
                     final config = PasswordGeneratorConfiguration(
                                         length: length!,
                                         minUppercase: min!,
-                                        minLowercase: upper!,
-                                        // ...
-                                      );
+                                        minLowercase: upper!,                        // ...
+                                     );
               
                                     final passwordGenerator = PasswordGenerator.fromConfig(
                                       configuration: config,
